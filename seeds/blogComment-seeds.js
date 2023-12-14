@@ -2,13 +2,15 @@ const { Comment } = require("../models");
 
 const CommentData = [
     {
+        id: 1,
         blog_body: "Good mornign everyone hope you are having a greate day!",
-        user_Id: 1,
+        user_id: 1,
         blogpost_id:1
     },
     {
+        id: 2,
         blog_body: "It is currently 3 am",
-        user_Id:2,
+        user_id:2,
         blogpost_id:2
     },
 ];
