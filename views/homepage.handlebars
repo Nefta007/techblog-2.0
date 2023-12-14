@@ -5,16 +5,16 @@
         <div class="col-md-5">
             <h2>
                 <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-                <a href="/blogpost/{{blogPost.id}}">{{blogPost.title}}</a>
+                <a href="/blogPost/{{blogPost.id}}">{{blogPost.title}}</a>
             </h2>
             <p>
                 <!-- Pass needed_funding value to the helper function -->
-                Posted by: {{blogpost.userName}} on {{format_date blogpost.blog_date}}
+                Posted by: {{blogPost.users.username}} on {{format_date blogPost.blog_date}}
             </p>
         </div>
         <div class="col-md-7">
             <p>
-                {{blogpost.description}}
+                {{blogPost.description}}
             </p>
         </div>
     </div>
